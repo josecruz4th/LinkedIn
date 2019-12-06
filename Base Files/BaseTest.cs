@@ -22,10 +22,12 @@ namespace LinkedIn.Base_Files
             driver = new ChromeDriver();
             driver.Url = strBrowserUrl;
         }
+        
+        [TearDown]
         public static void AfterTest()
         {
-            driver.Close();
-            driver.Quit();
+            //driver.Close();
+            //driver.Quit();
         }
     }
 }
