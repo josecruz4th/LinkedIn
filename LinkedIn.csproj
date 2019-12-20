@@ -59,12 +59,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base Files\BaseTest.cs" />
-    <Compile Include="Page Objects\LoginPage.cs" />
+    <Compile Include="Page Objects\LoginPagePOM.cs" />
     <Compile Include="Page Objects\LogoutPage.cs" />
+    <Compile Include="Page Objects\SearchPagePOM.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test Cases\Logout.cs" />
-    <Compile Include="Test Cases\ValidateLogin.cs" />
+    <Compile Include="Test Cases\SearchPageTest.cs" />
+    <Compile Include="Test Cases\LoginTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
